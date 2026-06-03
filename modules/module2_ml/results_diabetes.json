@@ -1,0 +1,25 @@
+{
+  "Logistic Regression": {
+    "cv_auc_mean": 0.8425625,
+    "test_auc": 0.807962962962963,
+    "accuracy": 0.6948051948051948
+  },
+  "Random Forest": {
+    "cv_auc_mean": 0.8991562499999999,
+    "test_auc": 0.805,
+    "accuracy": 0.7337662337662337
+  },
+  "XGBoost": {
+    "cv_auc_mean": 0.8774687499999999,
+    "test_auc": 0.7909259259259259,
+    "accuracy": 0.7337662337662337
+  },
+  "XGBoost (Tuned)": {
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": 7,
+      "learning_rate": 0.01
+    },
+    "test_auc": 0.8
+  }
+}
